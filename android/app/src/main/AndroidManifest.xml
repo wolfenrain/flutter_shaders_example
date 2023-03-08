@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_shader_water">
+    package="com.example.flutter_shaders">
    <application
-        android:label="flutter_shader_water"
+        android:label="flutter_shaders"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

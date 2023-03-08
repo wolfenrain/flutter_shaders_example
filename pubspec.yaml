@@ -25,3 +25,4 @@ flutter:
     - shaders/mario.glsl
     - shaders/glitch.glsl
     - shaders/snow.glsl
+    - shaders/stars.glsl

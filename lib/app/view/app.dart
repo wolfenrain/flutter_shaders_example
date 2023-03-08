@@ -3,6 +3,7 @@ import 'package:flutter_shaders_example/glitch/glitch.dart';
 import 'package:flutter_shaders_example/jam/jam.dart';
 import 'package:flutter_shaders_example/mario/mario.dart';
 import 'package:flutter_shaders_example/snow/snow.dart';
+import 'package:flutter_shaders_example/stars/stars.dart';
 import 'package:flutter_shaders_example/water/water.dart';
 
 class App extends StatelessWidget {
@@ -12,12 +13,6 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // theme: ThemeData(
-      //   appBarTheme: const AppBarTheme(color: Color(0xFF13B9FF)),
-      //   colorScheme: ColorScheme.fromSwatch(
-      //     accentColor: const Color(0xFF13B9FF),
-      //   ),
-      // ),
       theme: ThemeData.dark(),
       home: const AppView(),
     );
@@ -57,6 +52,10 @@ class AppView extends StatelessWidget {
           ElevatedButton(
             onPressed: () => Navigator.of(context).push(SnowPage.route()),
             child: const Text('Snow'),
+          ),
+          ElevatedButton(
+            onPressed: () => Navigator.of(context).push(StarsPage.route()),
+            child: const Text('Stars'),
           ),
         ],
       ),

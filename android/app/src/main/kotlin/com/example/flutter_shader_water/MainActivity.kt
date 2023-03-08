@@ -1,4 +1,4 @@
-package com.example.flutter_shader_water
+package com.example.flutter_shaders
 
 import io.flutter.embedding.android.FlutterActivity
 
